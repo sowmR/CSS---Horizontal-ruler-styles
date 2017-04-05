@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sample Pages</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="HR.css">
+ 
+  </head>
+<body>
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" data-toggle="collapse" data-target="#myNavbar">
+      <img class="color_img" src="g8074.png" height="130%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" >
+        <li ><a href="#" >Horizontal Rulers</a></li>       
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
+        <li><a href="https://sowmyaporfolio.firebaseapp.com" target="_blank><span class="glyphicon glyphicon-log-in"></span>By Sowmya</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of Navigation-->
+<!-- page content-->
+<div class="container-fluid">
+<!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Horizontal Rulers
+                    <small>- Various HR with CSS codes</small>
+                </h1>
+            </div>
+        </div>
+
+<div class="col-sm-12">
+  <div class="col-sm-6 cell_100 gray" >
+    <xmp>
+    /* This is a simple line with gradients*/
+    border: 0;
+    height: 1px;
+    background: #0e0e0e;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);</xmp>
+  </div>
+  <div class="col-sm-6 ">
+    <div class="hr1"></div>
+  </div>
+</div>
+<div class="row"><p></p></div>
+<div class="col-sm-12">
+  <div class="col-sm-6 " ><div class="hr2"></div></div>
+  <div class="col-sm-6 cell_100 gray">
+    <xmp>
+  /* This is a line with double color*/
+  height: 3px;
+  border-bottom: 1px double #0e0e0e;
+  background-color: #FA0820;
+    </xmp>
+  </div>
+</div>
+<div class="row"><p></p></div>
+<div class="col-sm-12">
+   <div class="col-sm-6 cell_100 gray"><xmp>
+  /* This is a line with faded edges*/
+  border:0px;
+  height:2px;
+  background-image: linear-gradient(to right,
+      rgba(255,255,255,0.1),rgba(250,233,163,0.3),
+      rgba(246,198,5,0.9),rgba(250,233,163,0.3),
+      rgba(255,255,255,0.1));
+
+   </xmp></div>
+  <div class="col-sm-6" ><div class="hr3"></div></div>
+</div>
+
+<div class="row"><p></p></div>
+<div class="row">
+  <div class="col-sm-6" ><div class="hr4"></div></div>
+  <div class="col-sm-5 cell_100 gray">
+    <xmp>
+ /* In this type we have a curvy edge one*/
+ .hr4{
+  height:20px;
+  margin-top: 10%;
+  border-radius: 20px;
+  border-bottom: 2px inset #FACC2E;
+  box-shadow: 0 3px 2px 0 rgba(250,233,163,0.7);
+}
+
+.hr4::after{ /* add a & symbol in the middle*/
+  content: "&";
+  margin-left:48%;
+  margin-top:20px;
+  font-size: 2.2em;
+  color:rgba(240,198,5,0.9);
+  background-color: #ffffff;
+}
+    </xmp>
+  </div>
+</div>  
+</div>
+<!-- Footer area-->
+
+<footer class="container-fluid">
+  <div class="col-sm-12">
+      
+                  <div class="row">
+                <p>
+                <div class="copyright" >
+                  <center><p style="color:#f7f7f7;">
+                    <br/>&copy; sowmyas <script>document.write(new Date().getFullYear())</script></center>
+                </div>
+              </p>
+            </div>
+            </div>
+ 
+
+</footer>
+</body></html>

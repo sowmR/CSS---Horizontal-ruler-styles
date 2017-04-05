@@ -1,0 +1,89 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+.box p{
+	text-align:center;
+	position:relative;
+	margin-top:40%;
+  font-size: 30px;
+}
+.box {
+	background:#58D3F7;
+	margin:40px auto;
+  min-width:100px;
+  min-height: 200px;
+}
+.color_img{
+  -webkit-filter: hue-rotate(157deg);
+  filter: hue-rotate(157deg);
+  -webkit-filter: contrast(7.3);
+  filter: contrast(7.3);
+}
+.cell_100{
+  border:1px inset #8A0829;
+  border-radius: 30px;
+ 
+}
+.gray{
+  background-color: #f6f6f6;
+}
+.navbar{
+  background-color: #FACC2E;
+}
+.navbar , .nav > li >a{
+  background-color: #FACC2E;
+  color:#585858;
+  font-size: 18px;
+}
+
+.navbar-brand{
+  font-family: 'Helvetica,cursive';
+  font-size: 28px;
+  color:#585858;
+}
+/*----------------------------
+ horizontal ruler styles
+ -----------------------------*/
+ /* simple line with gradient*/
+
+.hr1{
+    border: 0;
+    height: 2px;
+    margin-top: 20%;
+    background: #0e0e0e;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/* double colored line*/
+.hr2{
+  height: 4px;
+  margin-top: 10%;
+  border-top: 1.5px solid #0e0e0e;
+  background-color: rgba(255,0,240,0.3);
+}
+/* with fade in on both sides*/
+.hr3{
+  border:0px;
+  height:2px;
+  margin-top: 20%;
+  background-image: linear-gradient(to right,rgba(255,255,255,0.1),rgba(250,233,163,0.3),rgba(246,198,5,0.9),rgba(250,233,163,0.3),rgba(255,255,255,0.1));
+}
+/* curved edge effect*/
+.hr4{
+  height:20px;
+  margin-top: 30%;
+  border-radius: 20px;
+  border-bottom: 2px inset #FACC2E;
+  box-shadow: 0 3px 2px 0 rgba(250,233,163,0.7);
+}
+.hr4::after{ /* add a & symbol in the middle*/
+  content: "&";
+  margin-left:48%;
+  margin-top:20px;
+  font-size: 2.2em;
+  color:rgba(240,198,5,0.9);
+  background-color: #ffffff;
+}
